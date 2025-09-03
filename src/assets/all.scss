@@ -1,0 +1,7 @@
+@import "bootstrap/scss/functions";
+
+// _variables.scss 檔案前方有下底線：不編譯成立檔案。
+// 而在導入的 path 檔名前不加下底線是不會出錯的
+@import "./variables";
+
+@import "bootstrap/scss/bootstrap";
